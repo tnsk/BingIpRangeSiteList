@@ -7,7 +7,7 @@ dotx = '.'
 iprange = argv[1]
 
 ipArr = iprange.split('.')
-del ipArr[3]
+ipArr.pop(3)
 ip = dotx.join(ipArr)
 
 iplist = []
